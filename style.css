@@ -1,0 +1,32 @@
+body { 
+  font-family: 'Courier New', Courier, monospace; 
+  text-align: center; 
+} 
+
+div.MrOdeonYes { 
+  display: flex; 
+  justify-content: center; 
+  align-items: center; /* Changed to center to align the link and buttons vertically */
+  gap: 100px; 
+  padding-top: 20px; 
+} 
+
+/* Targets the standard buttons */
+div.MrOdeonYes button { 
+  padding: 20px 34px; 
+  font-size: 24px; 
+  font-family: 'Courier New', Courier, monospace; 
+}
+
+/* Targets your link button to match perfectly */
+.my-button {
+  display: inline-block;
+  text-decoration: none;
+  color: initial; /* Inherits default text color */
+  background-color: buttonface; /* Standard browser button color */
+  border: 1px solid #767676;
+  border-radius: 2px;
+  padding: 20px 34px; 
+  font-size: 24px; 
+  font-family: 'Courier New', Courier, monospace;
+}
